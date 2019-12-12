@@ -23,6 +23,14 @@ Access to domain `http://localhost:8025`
 
 When you have send new email, at web have new mail
 
+## For test
+php artisan make:controller MyTestController
+php artisan make:model MyTest
+php artisan make:repository MyTest
+php artisan make:repository MyTest1 --i
+php artisan make:service MyTest
+php artisan make:mymodel Test --tableName="tests"
+
 ## Author
 
 * Name: **Nguyễn Quang Thịnh**
